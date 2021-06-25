@@ -1,0 +1,646 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5B58476626822A2200F18F85 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B58476526822A2200F18F85 /* AppDelegate.swift */; };
+		5B58476826822A2200F18F85 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B58476726822A2200F18F85 /* SceneDelegate.swift */; };
+		5B58476A26822A2200F18F85 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B58476926822A2200F18F85 /* HomeViewController.swift */; };
+		5B58476F26822A2400F18F85 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5B58476E26822A2400F18F85 /* Assets.xcassets */; };
+		5B58477226822A2400F18F85 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5B58477026822A2400F18F85 /* LaunchScreen.storyboard */; };
+		5B58477D26822A2500F18F85 /* bertrand_course_rxTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B58477C26822A2500F18F85 /* bertrand_course_rxTests.swift */; };
+		5B58478826822A2500F18F85 /* bertrand_course_rxUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B58478726822A2500F18F85 /* bertrand_course_rxUITests.swift */; };
+		5B58479C26822C9200F18F85 /* HomeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B58479B26822C9200F18F85 /* HomeViewModel.swift */; };
+		5BB5D61A2685D39200CA5A0E /* CustomElement.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BB5D6192685D39200CA5A0E /* CustomElement.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		5B58477926822A2500F18F85 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5B58475A26822A2200F18F85 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5B58476126822A2200F18F85;
+			remoteInfo = "bertrand-course-rx";
+		};
+		5B58478426822A2500F18F85 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5B58475A26822A2200F18F85 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5B58476126822A2200F18F85;
+			remoteInfo = "bertrand-course-rx";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		5B58476226822A2200F18F85 /* bertrand-course-rx.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "bertrand-course-rx.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5B58476526822A2200F18F85 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		5B58476726822A2200F18F85 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		5B58476926822A2200F18F85 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		5B58476E26822A2400F18F85 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		5B58477126822A2400F18F85 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		5B58477326822A2400F18F85 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5B58477826822A2500F18F85 /* bertrand-course-rxTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "bertrand-course-rxTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5B58477C26822A2500F18F85 /* bertrand_course_rxTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = bertrand_course_rxTests.swift; sourceTree = "<group>"; };
+		5B58477E26822A2500F18F85 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5B58478326822A2500F18F85 /* bertrand-course-rxUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "bertrand-course-rxUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5B58478726822A2500F18F85 /* bertrand_course_rxUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = bertrand_course_rxUITests.swift; sourceTree = "<group>"; };
+		5B58478926822A2500F18F85 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5B58479B26822C9200F18F85 /* HomeViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewModel.swift; sourceTree = "<group>"; };
+		5BB5D6192685D39200CA5A0E /* CustomElement.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomElement.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5B58475F26822A2200F18F85 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5B58477526822A2500F18F85 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5B58478026822A2500F18F85 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5B58475926822A2200F18F85 = {
+			isa = PBXGroup;
+			children = (
+				5B58476426822A2200F18F85 /* bertrand-course-rx */,
+				5B58477B26822A2500F18F85 /* bertrand-course-rxTests */,
+				5B58478626822A2500F18F85 /* bertrand-course-rxUITests */,
+				5B58476326822A2200F18F85 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		5B58476326822A2200F18F85 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5B58476226822A2200F18F85 /* bertrand-course-rx.app */,
+				5B58477826822A2500F18F85 /* bertrand-course-rxTests.xctest */,
+				5B58478326822A2500F18F85 /* bertrand-course-rxUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5B58476426822A2200F18F85 /* bertrand-course-rx */ = {
+			isa = PBXGroup;
+			children = (
+				5B58479626822BCE00F18F85 /* Ressource */,
+				5B58479526822BC600F18F85 /* Source */,
+			);
+			path = "bertrand-course-rx";
+			sourceTree = "<group>";
+		};
+		5B58477B26822A2500F18F85 /* bertrand-course-rxTests */ = {
+			isa = PBXGroup;
+			children = (
+				5B58477C26822A2500F18F85 /* bertrand_course_rxTests.swift */,
+				5B58477E26822A2500F18F85 /* Info.plist */,
+			);
+			path = "bertrand-course-rxTests";
+			sourceTree = "<group>";
+		};
+		5B58478626822A2500F18F85 /* bertrand-course-rxUITests */ = {
+			isa = PBXGroup;
+			children = (
+				5B58478726822A2500F18F85 /* bertrand_course_rxUITests.swift */,
+				5B58478926822A2500F18F85 /* Info.plist */,
+			);
+			path = "bertrand-course-rxUITests";
+			sourceTree = "<group>";
+		};
+		5B58479526822BC600F18F85 /* Source */ = {
+			isa = PBXGroup;
+			children = (
+				5B58479826822C4300F18F85 /* Network */,
+				5B58479726822C3E00F18F85 /* App */,
+			);
+			path = Source;
+			sourceTree = "<group>";
+		};
+		5B58479626822BCE00F18F85 /* Ressource */ = {
+			isa = PBXGroup;
+			children = (
+				5B58476E26822A2400F18F85 /* Assets.xcassets */,
+				5B58477026822A2400F18F85 /* LaunchScreen.storyboard */,
+				5B58477326822A2400F18F85 /* Info.plist */,
+			);
+			path = Ressource;
+			sourceTree = "<group>";
+		};
+		5B58479726822C3E00F18F85 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				5B58479A26822C7F00F18F85 /* Home */,
+				5B58479926822C5000F18F85 /* Navigation */,
+				5BB5D6192685D39200CA5A0E /* CustomElement.swift */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		5B58479826822C4300F18F85 /* Network */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Network;
+			sourceTree = "<group>";
+		};
+		5B58479926822C5000F18F85 /* Navigation */ = {
+			isa = PBXGroup;
+			children = (
+				5B58476726822A2200F18F85 /* SceneDelegate.swift */,
+				5B58476526822A2200F18F85 /* AppDelegate.swift */,
+			);
+			path = Navigation;
+			sourceTree = "<group>";
+		};
+		5B58479A26822C7F00F18F85 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				5B58476926822A2200F18F85 /* HomeViewController.swift */,
+				5B58479B26822C9200F18F85 /* HomeViewModel.swift */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5B58476126822A2200F18F85 /* bertrand-course-rx */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5B58478C26822A2500F18F85 /* Build configuration list for PBXNativeTarget "bertrand-course-rx" */;
+			buildPhases = (
+				5B58475E26822A2200F18F85 /* Sources */,
+				5B58475F26822A2200F18F85 /* Frameworks */,
+				5B58476026822A2200F18F85 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "bertrand-course-rx";
+			productName = "bertrand-course-rx";
+			productReference = 5B58476226822A2200F18F85 /* bertrand-course-rx.app */;
+			productType = "com.apple.product-type.application";
+		};
+		5B58477726822A2500F18F85 /* bertrand-course-rxTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5B58478F26822A2500F18F85 /* Build configuration list for PBXNativeTarget "bertrand-course-rxTests" */;
+			buildPhases = (
+				5B58477426822A2500F18F85 /* Sources */,
+				5B58477526822A2500F18F85 /* Frameworks */,
+				5B58477626822A2500F18F85 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5B58477A26822A2500F18F85 /* PBXTargetDependency */,
+			);
+			name = "bertrand-course-rxTests";
+			productName = "bertrand-course-rxTests";
+			productReference = 5B58477826822A2500F18F85 /* bertrand-course-rxTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		5B58478226822A2500F18F85 /* bertrand-course-rxUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5B58479226822A2500F18F85 /* Build configuration list for PBXNativeTarget "bertrand-course-rxUITests" */;
+			buildPhases = (
+				5B58477F26822A2500F18F85 /* Sources */,
+				5B58478026822A2500F18F85 /* Frameworks */,
+				5B58478126822A2500F18F85 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5B58478526822A2500F18F85 /* PBXTargetDependency */,
+			);
+			name = "bertrand-course-rxUITests";
+			productName = "bertrand-course-rxUITests";
+			productReference = 5B58478326822A2500F18F85 /* bertrand-course-rxUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5B58475A26822A2200F18F85 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1250;
+				LastUpgradeCheck = 1250;
+				TargetAttributes = {
+					5B58476126822A2200F18F85 = {
+						CreatedOnToolsVersion = 12.5;
+					};
+					5B58477726822A2500F18F85 = {
+						CreatedOnToolsVersion = 12.5;
+						TestTargetID = 5B58476126822A2200F18F85;
+					};
+					5B58478226822A2500F18F85 = {
+						CreatedOnToolsVersion = 12.5;
+						TestTargetID = 5B58476126822A2200F18F85;
+					};
+				};
+			};
+			buildConfigurationList = 5B58475D26822A2200F18F85 /* Build configuration list for PBXProject "bertrand-course-rx" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 5B58475926822A2200F18F85;
+			productRefGroup = 5B58476326822A2200F18F85 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5B58476126822A2200F18F85 /* bertrand-course-rx */,
+				5B58477726822A2500F18F85 /* bertrand-course-rxTests */,
+				5B58478226822A2500F18F85 /* bertrand-course-rxUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5B58476026822A2200F18F85 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5B58477226822A2400F18F85 /* LaunchScreen.storyboard in Resources */,
+				5B58476F26822A2400F18F85 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5B58477626822A2500F18F85 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5B58478126822A2500F18F85 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5B58475E26822A2200F18F85 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5B58476A26822A2200F18F85 /* HomeViewController.swift in Sources */,
+				5BB5D61A2685D39200CA5A0E /* CustomElement.swift in Sources */,
+				5B58476626822A2200F18F85 /* AppDelegate.swift in Sources */,
+				5B58476826822A2200F18F85 /* SceneDelegate.swift in Sources */,
+				5B58479C26822C9200F18F85 /* HomeViewModel.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5B58477426822A2500F18F85 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5B58477D26822A2500F18F85 /* bertrand_course_rxTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5B58477F26822A2500F18F85 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5B58478826822A2500F18F85 /* bertrand_course_rxUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		5B58477A26822A2500F18F85 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5B58476126822A2200F18F85 /* bertrand-course-rx */;
+			targetProxy = 5B58477926822A2500F18F85 /* PBXContainerItemProxy */;
+		};
+		5B58478526822A2500F18F85 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5B58476126822A2200F18F85 /* bertrand-course-rx */;
+			targetProxy = 5B58478426822A2500F18F85 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		5B58477026822A2400F18F85 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5B58477126822A2400F18F85 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		5B58478A26822A2500F18F85 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		5B58478B26822A2500F18F85 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5B58478D26822A2500F18F85 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1.0.0;
+				DEVELOPMENT_TEAM = 568UZNMWK9;
+				INFOPLIST_FILE = "bertrand-course-rx/Ressource/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "haydari.lauriane.com.bertrand-course-rx";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		5B58478E26822A2500F18F85 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1.0.0;
+				DEVELOPMENT_TEAM = 568UZNMWK9;
+				INFOPLIST_FILE = "bertrand-course-rx/Ressource/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "haydari.lauriane.com.bertrand-course-rx";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		5B58479026822A2500F18F85 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 568UZNMWK9;
+				INFOPLIST_FILE = "bertrand-course-rxTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "haydari.lauriane.com.bertrand-course-rxTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/bertrand-course-rx.app/bertrand-course-rx";
+			};
+			name = Debug;
+		};
+		5B58479126822A2500F18F85 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 568UZNMWK9;
+				INFOPLIST_FILE = "bertrand-course-rxTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "haydari.lauriane.com.bertrand-course-rxTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/bertrand-course-rx.app/bertrand-course-rx";
+			};
+			name = Release;
+		};
+		5B58479326822A2500F18F85 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 568UZNMWK9;
+				INFOPLIST_FILE = "bertrand-course-rxUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "haydari.lauriane.com.bertrand-course-rxUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "bertrand-course-rx";
+			};
+			name = Debug;
+		};
+		5B58479426822A2500F18F85 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 568UZNMWK9;
+				INFOPLIST_FILE = "bertrand-course-rxUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "haydari.lauriane.com.bertrand-course-rxUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "bertrand-course-rx";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5B58475D26822A2200F18F85 /* Build configuration list for PBXProject "bertrand-course-rx" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5B58478A26822A2500F18F85 /* Debug */,
+				5B58478B26822A2500F18F85 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5B58478C26822A2500F18F85 /* Build configuration list for PBXNativeTarget "bertrand-course-rx" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5B58478D26822A2500F18F85 /* Debug */,
+				5B58478E26822A2500F18F85 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5B58478F26822A2500F18F85 /* Build configuration list for PBXNativeTarget "bertrand-course-rxTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5B58479026822A2500F18F85 /* Debug */,
+				5B58479126822A2500F18F85 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5B58479226822A2500F18F85 /* Build configuration list for PBXNativeTarget "bertrand-course-rxUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5B58479326822A2500F18F85 /* Debug */,
+				5B58479426822A2500F18F85 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5B58475A26822A2200F18F85 /* Project object */;
+}
